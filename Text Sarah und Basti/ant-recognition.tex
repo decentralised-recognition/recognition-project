@@ -15,7 +15,8 @@
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[ansinew]{inputenc}
- 
+\usepackage{color}
+%available: black, white, red, green, blue, cyan, magenta, yellow 
 
 \usepackage{lmodern} %Type1-Schriftart für nicht-englische Texte
 
@@ -138,7 +139,7 @@
 	\end{itemize}
 	Aber: nicht feiner differenzierbar, da Ameisen sich in der Situation, wenn sie anderer Ameise gegenüberstehen, sofort entscheiden müssen, ob sie angreifen oder nicht.
 \subsection*{2. Footprints (FP)}
-für Flo interessanter, da facettenreicher (Spacial Patterns through footprint response?). Ampeisen können Fußspuren
+für Flo interessanter, da facettenreicher (Spacial Patterns through footprint response?). Ameisen können Fußspuren
 	\begin{itemize}
 	\item folgen $\rightarrow$ positiv
 	\item ignorieren $\rightarrow$ neutral
@@ -225,6 +226,37 @@ quantitativ: Parametergrenzen identifizieren und allgemein was daraus ableiten;
 \item Zeitplan erstellen
 \item ...?
 \end{itemize}
+\newpage
+\section*{Plans Augsburg}
+%Basic assumptions?
+
+For this project we want to combine the biological concepts of hydrocarbon footprints (FP) (and nestmate recognition (NR)) (Mainz) with the Organic Computing domain, especially the distributed verification of trust (values) in open, heterogeneous multi-agent systems (MAS) (Augsburg) to have a mutual benefit. 
+
+\noindent \textcolor{cyan}{(explain concept NR, FP)}
+
+\noindent \textcolor{blue}{(explain concept trust/MAS - Trusted Ants (TA))}
+
+In general, we can map nestmates (well-behaving, WB) and ants from foreign colonies (which may be avoided or ignored; bad-behaving, BB) to WB, BB (,or something in between) agents/PCs/etc.
+
+%jobs <-> malicious/ WB ants
+\noindent TA can profit from FP in several ways. A first mapping that can be useful for us is to map WB/BB ants to legal/illegal jobs in a MAS.
+One question that we ask---but cannot answer yet---is the territorial question. Regarding, e.g. legal and illegal jobs that may be processed distributedly. If an entity worked for a BB entity, it maybe wants to avoid similar entities from that moment on. In the ant domain this means to avoid the territory, and thus the footprints, of ants; in the OC domain it means to avoid jobs from this or similar users. Here, we also have to ask the question: what is "`similar"'? How can our similarity be mapped to NR similarity in terms of territoriality? To answer that is part of the future work.
+
+%ant colony <-> task/job
+\noindent Another aspects from FP can be mapped to the TA domain: an ant colony can be mapped to a job in TA, in consequence, a (group of) ant maps to a work unit. Different ant colonies represent jobs with different prioritisations. The aim (from OC side) here would be to maximise the utilisation\footnote{(german: Auslastung... wording?)} of the system. 
+%conflict <-> unsuccessful work unit
+\noindent How do ants change their tracking behaviour\footnote{Flo: wording correct?} after conflict confrontation, or positive experiences? This conflict can be mapped to a work unit that was not processed correctly by a fellow ant. How much should the behaviour of the affected ant (submitter) be touched by that, i.e. how much should its trust/distribution of work units change after that? The outcome of FP experiments are interesting for us, since the tracking behaviour seems successful on ants, and offer new perspectives about what options, e.g. what strength of $\Delta_{trust}$ is purposeful?
+
+%ant colony <-> TC
+\noindent Another approach is, if we map an ant colony to a Trust Community (TC). Inside the group, entities are sure everything is fine. With the preliminary work of Menzel et al. we can apply mechanisms of NR, e.g. co-existence of species\footnote{Flo: wie ist da der Fachterminus?}, to systems for a distributed mechanism of building TCs.
+\footnote{Flo: ist there also some kind of splitting possible in a species? Or does this only happen if a queen founds a new colony?}
+
+\noindent \textbf{How can the territorial aspect in FP(/NR) be meaningfully used in TA? How does it improve our TA/TDG/simulations on distributed verification/trust?}\footnote{Not sure about that... is that what we already have to write/know in the proposal? Or part of the work we want to do?}
+
+
+\noindent \textcolor{cyan}{Why are our simulations useful for FP research?}
+
+
 
 
 
